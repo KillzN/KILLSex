@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <a href="https://api.whatsapp.com/send/?phone=+51927238856&text=Hola%20soporte%20de%20Shadow%20Bot&type=phone_number&app_absent=0" target="_blank">
+  <a href="https://api.whatsapp.com/send/?phone=+56983073328&text=Hola%20soporte%20de%20Shadow%20Bot&type=phone_number&app_absent=0" target="_blank">
     <img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" />
   </a>
   <a href="http://www.instagram.com/usxr.crxxs" target="_blank">

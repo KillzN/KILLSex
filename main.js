@@ -80,7 +80,7 @@ console.log('Conexiones ya inicializadas...');
 global.conns = [];
 }
 global.creds = 'creds.json'
-global.authFile = 'ShadowSession'
+global.authFile = 'KILLBOTSession'
 global.authFileJB  = 'JadiBots'
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { }
