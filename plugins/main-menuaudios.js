@@ -9,7 +9,7 @@ const handler = async (m, { conn, usedPrefix, isPrems }) => {
 
     let totalreg = Object.keys(global.db.data.users).length
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
-    const pp = 'https://files.catbox.moe/9d4ria.jpg';
+    const pp = 'https://ibb.co/Y73rRC0X';
     const img = await (await fetch(pp)).buffer()
     const shadow = `${date}`;
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
@@ -21,8 +21,8 @@ const handler = async (m, { conn, usedPrefix, isPrems }) => {
  ‎ ‎ ‎ ‎౨ৎ  ‎ ‎ ‎ ‎*Bienvenido* ‎ ‎  ‎ ‎✿̮    ׅ  al   ୂ  
  ⿻    *𝖬𝖾𝗇𝗎*    ෨    *𝖮𝗐𝗇𝖾𝗋*    𑇙ᰍ
 
-*🌴 Nombre:* Shadow Ultra
-*☕ Creador:* Cristian
+*🌴 Nombre:* KILL BOT
+*☕ Creador:* MvrcoSex
 *📚 Librería:* Baileys
 *⏰ Uptime:* ${uptime}
 *🚀 Type:* NodeJs
@@ -45,25 +45,25 @@ ${readMore}
 𑂯 ׁ${xowner} ${usedPrefix}autoadmin 
 > ${club}
 `.trim();
-/*
-    conn.sendMessage(m.chat, {
-      text: text,
-      contextInfo: {
-        mentionedJid: conn.parseMention(text),
-        isForwarded: true,
-        forwardingScore: 999,
-        externalAdReply: {
-          title: `${await conn.getName(m.sender)}, Welcome to my developer menu, follow me on Instagram, thank you very much.`,
-          body: dev,
-          thumbnail: await (await fetch(img)).buffer(),
-          sourceUrl: insta,
-          mediaType: 1,
-          renderLargerThumbnail: true
-        }
-      }
-    }, { quoted: fkontak });*/
+    /*
+        conn.sendMessage(m.chat, {
+          text: text,
+          contextInfo: {
+            mentionedJid: conn.parseMention(text),
+            isForwarded: true,
+            forwardingScore: 999,
+            externalAdReply: {
+              title: `${await conn.getName(m.sender)}, Welcome to my developer menu, follow me on Instagram, thank you very much.`,
+              body: dev,
+              thumbnail: await (await fetch(img)).buffer(),
+              sourceUrl: insta,
+              mediaType: 1,
+              renderLargerThumbnail: true
+            }
+          }
+        }, { quoted: fkontak });*/
 
-  await conn.sendLuffy(m.chat, txt, shadow, text, img, img, ig, fkontak)
+    await conn.sendLuffy(m.chat, txt, shadow, text, img, img, ig, fkontak)
 
   } catch (e) {
     conn.reply(m.chat, '✖️ Error en el comando. Inténtalo más tarde.', m);

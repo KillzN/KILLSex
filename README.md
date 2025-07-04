@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/CrxstianEscobar/ShadowUltra-MD/watchers">
+  <a href="https://github.com/KillzN/KILLSex/watchers">
     <img title="Espectadores" src="https://img.shields.io/github/watchers/CrxstianEscobar/ShadowUltra-MD?label=Espectadores&style=social" />
   </a>
 </p>
@@ -54,7 +54,7 @@
 |-----------|--------|---------|--------|
 | WhatsApp  | Canal  | Español | [¡Únete aquí!](https://whatsapp.com/channel/0029VauTE8AHltY1muYir31n) |
 | WhatsApp  | Team   | Español | [¡Únete aquí!](https://whatsapp.com/channel/0029Vafxnat8qIzxOjUrwP41) |
-| WhatsApp  | Grupo  | Español | [¡Únete aquí!](https://chat.whatsapp.com/FCS6htvAmlT7nq006lxU4I) |
+| WhatsApp  | Grupo  | Español | [¡Únete aquí!](https://chat.whatsapp.com/HqhAoXS8TCcJIn0KrbJZKz) |
 
 ---
 

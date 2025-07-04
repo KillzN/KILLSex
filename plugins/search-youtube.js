@@ -20,7 +20,7 @@ const handler = async (m, { conn, usedPrefix, command, text }) => {
     body: {
       text: `> *Resultados:* \`${videos.length}\`\n\n*${randomVideo.title}*\n\n≡ 🌵 *\`Autor:\`* ${randomVideo.author.name}\n≡ 🍁 *\`Vistas:\`* ${randomVideo.views.toLocaleString()}\n≡ 🌿 *\`Enlace:\`* ${randomVideo.url}`
     },
-    footer: { text: 'sʜᴀᴅᴏᴡ ᴜʟᴛʀᴀ ᴍᴅ' },
+    footer: { text: '𝙿𝚘𝚛𝚗𝚑𝚞𝚋: @𝙱𝚢𝙺𝚒𝚕𝚕𝚣𝙽' },
     header: {
       title: '```乂 YOUTUBE - SEARCH```',
       hasMediaAttachment: true,

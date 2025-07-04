@@ -1,16 +1,16 @@
 import fetch from 'node-fetch';
 
-const handler = async (m, {conn, usedPrefix, text}) => {
+const handler = async (m, { conn, usedPrefix, text }) => {
 
   try {
-    await m.react ('🌴');
-    const videoUrl = 'https://files.catbox.moe/3i7ldi.mp4'
+    await m.react('🌴');
+    const videoUrl = 'https://ibb.co/Y73rRC0X'
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
 
     const str = `
 ㅤᨦ۪۪۪۪ׄ᷼ㅤ֢ㅤׄㅤׅ֟፝ㅤ⋱ㅤ⁝ㅤ⋰ㅤׅ፝֟ㅤׄㅤ֢ㅤ۪۪۪۪ׄ᷼ഒ
  𝖧𝗈𝗅⍺ ${taguser}
-𝖡𝗂𝖾𝗇𝗏𝖾𝗇𝗂𝖽𑄙 ⍺𝗅 *𝖬𝖾𝗇𝗎́ 𝖫𝗈𝗀𑄈𝗌*
+Bienvenido al menú de logos*
 
 ᦷᩘᦷ   ݂  \`ᴄᴏᴍᴀɴᴅᴏs\`  ፡ ܻ̯͛ᩘ${xlogos}
 ᰅ${xlogos}ᰍ ${usedPrefix}balogo *txt*
@@ -52,15 +52,15 @@ const handler = async (m, {conn, usedPrefix, text}) => {
 > ${club}
 `.trim();
 
-      await conn.sendMessage(m.chat, {
-            video: { url: videoUrl },
-            caption: str,
-            mentions: [m.sender],
-            gifPlayback: true
-        }, { quoted: fkontak })
+    await conn.sendMessage(m.chat, {
+      video: { url: videoUrl },
+      caption: str,
+      mentions: [m.sender],
+      gifPlayback: true
+    }, { quoted: fkontak })
 
   } catch (e) {
-    conn.reply(m.chat,`*❌ Error al enviar el menú.*\n${e}`, m);
+    conn.reply(m.chat, `*❌ Error al enviar el menú.*\n${e}`, m);
   }
 };
 

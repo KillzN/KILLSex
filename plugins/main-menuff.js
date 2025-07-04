@@ -6,7 +6,7 @@ const handler = async (m, { conn, usedPrefix, isPrems }) => {
 
     const _uptime = process.uptime() * 1000;
     const uptime = clockString(_uptime);
-    const pp = 'https://files.catbox.moe/9d4ria.jpg';
+    const pp = 'https://ibb.co/Y73rRC0X';
     const img = await (await fetch(pp)).buffer()
     const shadow = `${date}`;
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
@@ -50,7 +50,7 @@ const handler = async (m, { conn, usedPrefix, isPrems }) => {
 
 `.trim();
 
-  await conn.sendLuffy(m.chat, txt, shadow, text, img, img, ig, fkontak)
+    await conn.sendLuffy(m.chat, txt, shadow, text, img, img, ig, fkontak)
 
   } catch (e) {
     conn.reply(m.chat, '✖️ Error en el comando. Inténtalo más tarde.', m);

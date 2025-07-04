@@ -1,4 +1,4 @@
-// HECHO POR DEV.CRISS_VX
+// HECHO POR MvrcoSex
 // DEJAR LOS CRÉDITOS MALDITAS ESCORIAS
 
 import fetch from 'node-fetch';
@@ -85,7 +85,7 @@ const handler = async (m, { conn, text }) => {
   const end = performance.now();
   const speed = ((end - start) / 1000).toFixed(4);
 
-const googleMapsUrl = `https://www.google.com/maps?q=${location.lat},${location.lon}`;
+  const googleMapsUrl = `https://www.google.com/maps?q=${location.lat},${location.lon}`;
 
   const doxeo = `*\`👨🏻‍💻 DOXEO FINALIZADO\`*
 > *Realizado en* \`${speed} segundos\`

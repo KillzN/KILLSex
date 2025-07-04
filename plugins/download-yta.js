@@ -3,10 +3,10 @@ import yts from 'yt-search'
 
 let handler = async (m, { conn, command, text, usedPrefix }) => {
   if (!text) return m.reply(`╭━━〔 *❗ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊 ❗* 〕━━⬣
-┃ ✦ ${usedPrefix + command} Joji - Glimpse of Us
+┃ ✦ ${usedPrefix + command} Trip - 26is
 ╰━━━━━━━━━━━━━━━━━━⬣`);
 
-  await conn.sendMessage(m.chat, { react: { text: '🔍', key: m.key }})
+  await conn.sendMessage(m.chat, { react: { text: '🔍', key: m.key } })
 
   let results = await yts(text)
 
@@ -57,11 +57,11 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
       mentions: [m.sender]
     }, { quoted: m })
 
-    await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key }})
+    await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key } })
 
   } catch (err) {
     console.error(`❎ Error: ${err.message}`)
-    await conn.sendMessage(m.chat, { react: { text: '❎', key: m.key }})
+    await conn.sendMessage(m.chat, { react: { text: '❎', key: m.key } })
     await m.reply('❎ Error al obtener o enviar el audio. Puedes intentar más tarde o descargarlo aquí:\n' + apiUrl)
   }
 }

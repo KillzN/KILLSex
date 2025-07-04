@@ -1,10 +1,10 @@
-const handler = async (m, {isPrems, conn}) => {
+const handler = async (m, { isPrems, conn }) => {
   const time = global.db.data.users[m.sender].lastcofre + 86400000; // 36000000 10 Horas //86400000 24 Horas
   if (new Date - global.db.data.users[m.sender].lastcofre < 86400000) {
-return conn.reply(
-m.chat, `*🎁 Ya Reclamastes Tu Cofre*\nRegresa en \`${msToTime(time - new Date())}\` para volver a reclamar`, m);
-}
-  const img = 'https://files.catbox.moe/qd5v12.jpg';
+    return conn.reply(
+      m.chat, `*🎁 Ya Reclamastes Tu Cofre*\nRegresa en \`${msToTime(time - new Date())}\` para volver a reclamar`, m);
+  }
+  const img = 'https://ibb.co/Y73rRC0X';
   const dia = Math.floor(Math.random() * 30);
   const tok = Math.floor(Math.random() * 10);
   const ai = Math.floor(Math.random() * 4000);
